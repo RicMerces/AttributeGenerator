@@ -1,3 +1,29 @@
 body{
-    background-color: blue;
+    background-color: #ffffff;
+    margin: 0px;
+}
+
+header{
+    display: block;
+    height: 1050px;
+}
+
+section.sobre{
+    display: block;
+    background-color: #6428AD;
+    height: 1150px;
+    
+}
+
+section.tutorial{
+    display: block;
+    background-color: #ffffff;
+    height: 2300px;
+}
+
+footer{
+    display: block;
+    background-color: #35155C;
+    height: 200px;
+
 }
