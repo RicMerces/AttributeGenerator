@@ -7,16 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elixxir</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
+    <!--------------------   HEADER   ---------------------->
     <header>
-        <div class="LogoHeader">
-            <img src="img/logoElixxir.png" alt="logoElixxir">
-            <h1>
-                Elixxir
-            </h1>
-            <p>RPG Avatar atribute generator</p>
+        <div class="logoHeader">
+            <img class="logo" src="img/logo.png">
+            <div>
+                <h1>
+                    Elixxir
+                </h1>
+                <p>RPG Avatar atribute generator</p>
+            </div>
+            
         </div>
         <div class="txtHeader">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et dui lectus.
@@ -27,14 +36,15 @@
             </p>
         </div>
         <div class="buttonsHeader">
-            <button type="button">Saiba mais</button>
-            <button type="button">Gerar</button>
+            <button class="saibaMaisButton" type="button">SAIBA MAIS</button>
+            <button class="gerarButton" type="button">GERAR</button>
         </div>
     </header>
 
+    <!--------------------   SOBRE  ---------------------->
     <section class="sobre">
         <div class="tituloSobre">
-            <h2>Sobre</h2>
+            <h2>SOBRE</h2>
         </div>
         <div class="txtSobre">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nunc erat, vestibulum at porttitor non,
@@ -46,53 +56,56 @@
             </p>
         </div>
         <div class="components">
-            <img src="img/component1.png">
-            <img src="img/component2.png">
-            <img src="img/component3.png">
-            <img src="img/component4.png">
+            <div class="circulo"></div>
+            <div class="circulo"></div>
+            <div class="circulo"></div>
+            <div class="circulo"></div>
+
         </div>
     </section>
 
+    <!--------------------   TUTORIAL   ---------------------->
     <section class="tutorial">
         <div class="tutorialTitle">
-            <h2>Tutorial</h2>
+            <h2>TUTORIAL</h2>
         </div>
-        <div class="passo1">
+        <div class="passo">
             <div>
                 <h3>Passo1</h3>
-                <p>Clique no Botão de <span class="gerar">GERAR</span></p>
+                <p class="passoTxt">Clique no Botão de <span class="gerar">GERAR</span></p>
             </div>
             <div>
-                <img src="gif1.gif" >
+                <div class="quadrado"></div>
             </div>
         </div>
-        <div class="passo2">
+        <div class="passo">
             <div>
-                <img src="gif2.gif" >
+                <div class="quadrado"></div>
             </div>
             <div>
                 <h3>Passo2</h3>
-                <p>Clique no Botão de <span class="gerar">GERAR</span></p>
+                <p class="passoTxt">Clique no Botão de <span class="gerar">GERAR</span></p>
             </div>
         </div>
-        
-        <div class="passo3">
+
+        <div class="passo">
             <div>
                 <h3>Passo3</h3>
-                <p>Clique no Botão de <span class="gerar">GERAR</span></p>
+                <p class="passoTxt">Clique no Botão de <span class="gerar">GERAR</span></p>
             </div>
             <div>
-                <img src="gif3.gif" >
+                <div class="quadrado"></div>
             </div>
         </div>
         <div class="tutorialTxt">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et dui lectus.</p>
         </div>
         <div class="tutorialButton">
-            <button type="button">Gerar</button>
+            <button type="button">GERAR</button>
         </div>
     </section>
 
+    <!--------------------   FOOTER   ---------------------->
     <footer>
 
     </footer>
