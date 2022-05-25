@@ -1,6 +1,9 @@
 body{
     background-color: rgb(23, 9, 40);
     margin: 0px;
+    padding: 0px;
+    width: 100%;
+   
 }
 
 /*------------- Cabeçalho da página ------------*/
@@ -17,7 +20,13 @@ header{
     justify-content: center;
 }
 
+.logoHeader img{
+    width: 400px;
+    
+}
+
 .logoHeader h1{
+    
     color: #7E32DB;
     font-family: 'Inter', sans-serif;
     font-size: 160px;
@@ -25,6 +34,7 @@ header{
     text-align: center;
     margin: 0px;
     padding: 0px;
+    padding-top: 90px;
 }
 
 .logoHeader p{
@@ -76,12 +86,13 @@ button.saibaMaisButton:hover{
 
 .buttonsHeader .saibaMaisButton{
     background-color: #AA7AE6;
+    margin-right: 15px;
 
 }
 
 .buttonsHeader .gerarButton{
     background-color: #6428AD;
-    
+    margin-left: 15px;
 }
 
 
@@ -110,6 +121,7 @@ section.sobre{
     
     
     
+    
 }
 
 .sobre .tituloSobre{
@@ -123,6 +135,8 @@ section.sobre{
     font-family: 'Inter', sans-serif;
     font-size: 32px;
     font-weight: 400;
+    padding-left: 100px;
+    padding-right: 100px;
     
     
 }
@@ -130,11 +144,13 @@ section.sobre{
 .components{
     display: flex;
     justify-content: space-around;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .sobre .components .circulo{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     background-color: #F2EDF8;
     border-radius: 150px;
 }
