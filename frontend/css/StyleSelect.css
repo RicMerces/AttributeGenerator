@@ -118,3 +118,9 @@ flex-direction: column;
     float: left;
     display: block;
 }
+
+
+#select{
+    border: #AA7AE6 4px solid;
+    border-radius: 30px;
+}
