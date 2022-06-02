@@ -17,11 +17,12 @@ flex-direction: column;
 }
 
 .selecioneJogo h2 {
+    margin-top: 50px;
     color: #fff;
     text-align: center;
     font-size: 60px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-bottom: 40px;
+    
 
 }
 
@@ -48,4 +49,62 @@ flex-direction: column;
     border-style: none;
     color: #fff;
     cursor: pointer;
+}
+
+
+/* Info game */
+
+.areaExplicativa{
+    padding: 40px;
+    margin-top: 15vh;
+    background-color: #170928;
+    border-radius: 30px;
+    display: flex;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.areaExplicativa div{
+    display: flex;
+}
+.areatextual{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.areatextual h4{
+    font-size: 36px;
+    color: #D0A9FF;
+}
+
+.areatextual p{
+    padding: 20px 30px 0 0;
+    font-size: 22px;
+}
+
+.areaExplicativa .area02{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.btns #purpleclaro {
+    background-color: #AA7AE6;
+
+}
+
+.btns #purpleescuro {
+    background-color: #35155C;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.btn{
+    width: 10vw;
 }
