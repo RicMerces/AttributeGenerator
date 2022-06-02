@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    
 }
 
 .corpo {
@@ -106,7 +106,7 @@
 
 .divisor{
     background-color: #170928;
-    width: 186px;
+    width: 5vw;
     height: 10px;
     margin: 0 auto;
     border-radius: 30px;
@@ -191,4 +191,10 @@
     color: #AA7AE6;
     padding: 0 500px;
     font-weight: 200;
+}
+
+.footer{
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
 }
