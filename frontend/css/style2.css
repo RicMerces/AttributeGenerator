@@ -14,7 +14,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 140px;
+    margin-top: 50px;
 }
 
 .corpo .contents {
@@ -116,7 +116,7 @@
 .sobre .descricaoDeProjeto{
     margin-top: 50px;
     padding: 0 300px;
-    font-size: 22px;
+    
 }
 
 .sobre a{

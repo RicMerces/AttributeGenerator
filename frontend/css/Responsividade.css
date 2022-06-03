@@ -1,10 +1,55 @@
 /* Responsividade */
 
-@media screen and (max-width: 1680px) {
-    
+@media screen and (max-width: 1528px) {
+    .membros div img{
+        width: 300px;
+    }
+    .descricaoDeProjeto {
+        
+        font-weight: 300;
+        margin: 10px 0;
+        color: #fff;
+        font-size: 20px;
+        text-align: center;
+        padding: 0 300px;
+    } 
+    .sobre .descricaoDeProjeto{
+        margin-top: 50px;
+        padding: 0 200px;
+    }
 }
-@media screen and (max-width: 1400px) {}
-@media screen and (max-width: 1280px) {}
+@media screen and (max-width: 1200px) {
+    .membros div{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .membros div img{
+        width: 200px;
+    }
+    .liqelixir{
+        display:none;
+    }
+
+   
+
+    .sobre{
+        margin-top: 130px;
+        padding: 50px 0 100px;
+        background-color: #7E32DB;
+        border-radius: 100em/10em;
+        background: #6428AD;
+        box-shadow: 0px -20px 100px rgba(113, 0, 255, 0.25);
+        
+    }
+
+    .tutorial h2{
+        margin-top: 50px;
+        color: #AA7AE6;
+        
+    }
+}
+
 @media screen and (max-width: 1199px) {}
 @media screen and (max-width: 1024px) {}
 @media screen and (max-width: 991px) {}
