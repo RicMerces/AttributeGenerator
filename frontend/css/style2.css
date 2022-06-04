@@ -183,7 +183,6 @@
 }
 
 .tutorial .cases{
-    
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -201,9 +200,6 @@
 }
 
 
-footer div{
-    /* display: flex;
-    justify-content: center;
-    margin: 0 auto; */
+.cases img{
+    height: 300px;
 }
-
