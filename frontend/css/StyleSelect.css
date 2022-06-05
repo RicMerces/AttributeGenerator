@@ -30,7 +30,7 @@ flex-direction: column;
 
 .jogo {
     margin: 0 auto;
-    width: 45vw;
+    
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
@@ -102,11 +102,12 @@ flex-direction: column;
 .btns{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 
 .btn{
-    width: 10vw;
+    width: 25vw;
 }
 
 

@@ -15,6 +15,7 @@
     align-items: center;
     flex-direction: column;
     margin-top: 50px;
+    
 }
 
 .corpo .contents {
@@ -25,6 +26,7 @@
 .corpo .icon {
     padding: 20px;
     margin-bottom: -50px;
+    
 }
 
 .corpo header h2 {
@@ -57,6 +59,7 @@
     font-size: 22px;
     text-align: center;
     padding: 0 450px;
+    
 }
 
 
