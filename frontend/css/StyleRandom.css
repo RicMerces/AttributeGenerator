@@ -1,40 +1,165 @@
-.slidecontainer {
-    width: 100%; /* Width of the outside container */
-  }
-  
-  /* The slider itself */
-  .slider {
-    -webkit-appearance: none;  /* Override default CSS styles */
-    appearance: none;
-    width: 100%; /* Full-width */
-    height: 25px; /* Specified height */
-    background: #AA7AE6; /* Grey background */
-    outline: none; /* Remove outline */
-    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
-    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
-    transition: opacity .2s;
-  }
-  
-  /* Mouse-over effects */
-  .slider:hover {
-    opacity: 1; /* Fully shown on mouse-over */
-  }
-  
-  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
-  .slider::-webkit-slider-thumb {
-    -webkit-appearance: none; /* Override default look */
-    appearance: none;
-    width: 25px; /* Set a specific slider handle width */
-    height: 25px; /* Slider handle height */
-    background: #340572; /* Green background */
-    cursor: pointer; /* Cursor on hover */
-    border-radius: 30px;
+body{
+    color: white;
+    background-color: rgb(23, 9, 40);
+    font-family: 'Inter', sans-serif;
+}
 
-  }
-  
-  .slider::-moz-range-thumb {
-    width: 25px; /* Set a specific slider handle width */
-    height: 25px; /* Slider handle height */
-    background: #2D075E; /* Green background */
-    cursor: pointer; /* Cursor on hover */
-  }
+.selectionText{
+    text-align: center 
+}
+
+h1{
+    font-size: 50px;
+}
+
+.pontDisponivel{
+    font-size: 30px;
+}
+
+p.pontMaxima{
+    font-size: 24px;
+}
+
+.slideSection{
+    display: flex;
+    justify-content: center;
+}
+
+.slidecontainer {
+    width: 50%;
+   /* Width of the outside container */
+    margin-top: 50px;
+    background-color: #EAEAEA;
+    border-radius: 20px;
+    padding: 50px 50px 70px 50px;
+    color: #1F0D36;
+}
+
+.test{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;
+   /* Override default CSS styles */
+    appearance: none;
+    width: 100%;
+   /* Full-width */
+    height: 30px;
+   /* Specified height */
+    background: linear-gradient(90deg, rgb(202, 178, 232) 60%, rgb(202, 178, 232) 60% );;
+   /* Grey background */
+    outline: none;
+   /* Remove outline */
+    padding: 0;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+   /* Override default look */
+    appearance: none;
+    width: 70px;
+   /* Set a specific slider handle width */
+    height: 70px;
+   /* Slider handle height */
+    background: #2D075E;
+   /* Green background */
+    cursor: pointer;
+   /* Cursor on hover */
+    border-radius: 50%;
+}
+
+.slider::-moz-range-thumb {
+    width: 40px;
+   /* Set a specific slider handle width */
+    height: 40px;
+   /* Slider handle height */
+    background: #04AA6D;
+   /* Green background */
+    cursor: pointer;
+   /* Cursor on hover */
+}
+
+p.atribute{
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    color: #1F0D36;
+}
+
+#forValue{
+    font-weight: 700;
+}
+
+#desValue{
+    font-weight: 700;
+}
+
+#sabValue{
+    font-weight: 700;
+}
+
+#inteValue{
+    font-weight: 700;
+}
+
+#carValue{
+    font-weight: 700;
+}
+
+#conValue{
+    font-weight: 700;
+}
+
+#perValue{
+    font-weight: 700;
+}
+
+#sorValue{
+    font-weight: 700;
+}
+
+#agiValue{
+    font-weight: 700;
+}
+
+#intuValue{
+    font-weight: 700;
+}
+
+.botoes{
+    margin: 60px 50px 0 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+button{
+    width: 240px;
+    height: 60px;
+    border-radius: 60px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    
+}
+
+#salvar{
+    background-color: #AA7AE6;
+}
+
+#gerarOutro{
+    background-color: #6428AD;
+}
+
+
+
