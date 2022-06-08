@@ -61,14 +61,44 @@ p.pontMaxima{
     margin-bottom: 20px;
 }
 
+
+.align-back{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+}
+
+
+.voltar{
+    /* margin-right: -30px;
+    padding-top: 10px;
+    padding-left: 50px;
+    z-index: 300;
+    float: left;
+    display: block;  */
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+
+    /* background-color: aqua; */
+}
+
+.voltar .back{
+    padding: 20px;
+    width: 50px; 
+}
+
+
+
 /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
 .slider::-webkit-slider-thumb {
     -webkit-appearance: none;
    /* Override default look */
     appearance: none;
-    width: 70px;
+    width: 40px;
    /* Set a specific slider handle width */
-    height: 70px;
+    height: 40px;
    /* Slider handle height */
     background: #2D075E;
    /* Green background */
@@ -167,4 +197,55 @@ button{
   }
 
 
+.btns-section{
+    display: flex;
+    justify-content: center;
+}
 
+
+.btns-section .botoes a{
+    margin: 30px;
+}
+
+
+
+@media screen and (max-width: 991px) {
+
+    h1{
+        font-size: 40px;
+    }
+
+    .pontDisponivel{
+        font-size: 24px;
+    }
+    
+    p.pontMaxima{
+        font-size: 20px;
+    }
+
+    .btns-section .botoes {
+        flex-wrap: wrap;
+    }
+    .btns-section .botoes a{
+        margin: 10px;
+    }
+
+    .btns-section .botoes a button{
+    width: 200px;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+  
+
+}
+@media screen and (max-width: 575px) {
+   
+}
+@media screen and (max-width: 480px) {
+    
+    
+}
+@media screen and (max-width: 360px) {
+   
+}
