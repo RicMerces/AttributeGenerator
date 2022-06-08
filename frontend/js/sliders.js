@@ -9,7 +9,7 @@ output1.innerHTML = slider1.value + "pts";
 
 slider1.oninput = function () {
     output1.innerHTML = this.value + " pts";
-    pontDisp.innerHTML = pontDisp.value
+   
     
 }
 
