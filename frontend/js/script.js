@@ -22,9 +22,7 @@ n10 = 0
 
 
 
-
-
-function testar() {
+function gerarAtributos() {
 
     pontDisp.value = 0
     pontDisp.innerHTML = pontDisp.value

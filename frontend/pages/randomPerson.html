@@ -10,51 +10,51 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js"></script>
 </head>
 
-<body onload="testar()">
-
+<body id="pagina" onload="gerarAtributos()">
     <div class="selectionText">
         <h1>Seu avatar em Dungeons and Dragons</h1>
         <p class="pontDisponivel">PONTUACAO DISPONIVEL : <span id="pontDisponivel"></span></p>
         <p class="pontMaxima">Pontuação Maxima = 100</p>
     </div>
     <div class="slideSection">
-        <div class="slidecontainer">
+        <div id="slidecontainer">
             <div id="atributos">
-                <p class="atribute">Força: <span id="forValue"></span></p>
-                <input type="range" min="0" max="20" id="forRange" class="slider" from-max="15">
+            <p class="atribute">Força: <span id="forValue"></span></p>
+            <input type="range" min="0" max="20" id="forRange" class="slider" from-max="15">
 
-                <p class="atribute">Destreza: <span id="desValue"></span></p>
-                <input type="range" min="0" max="20" id="desRange" class="slider">
+            <p class="atribute">Destreza: <span id="desValue"></span></p>
+            <input type="range" min="0" max="20" id="desRange" class="slider">
 
-                <p class="atribute">Sabedoria: <span id="sabValue"></span></p>
-                <input type="range" min="0" max="20" value="0" id="sabRange" class="slider">
+            <p class="atribute">Sabedoria: <span id="sabValue"></span></p>
+            <input type="range" min="0" max="20" id="sabRange" class="slider">
 
-                <p class="atribute">Inteligência: <span id="inteValue"></span></p>
-                <input type="range" min="0" max="20" value="0" id="inteRange" class="slider">
+            <p class="atribute">Inteligência: <span id="inteValue"></span></p>
+            <input type="range" min="0" max="20" id="inteRange" class="slider">
 
-                <p class="atribute">Carisma: <span id="carValue"></span></p>
-                <input type="range" min="0" max="20" value="0" id="carRange" class="slider">
+            <p class="atribute">Carisma: <span id="carValue"></span></p>
+            <input type="range" min="0" max="20" id="carRange" class="slider">
 
-                <p class="atribute">Constituição: <span id="conValue"></span></p>
-                <input type="range" min="0" max="20" value="0" id="conRange" class="slider">
+            <p class="atribute">Constituição: <span id="conValue"></span></p>
+            <input type="range" min="0" max="20" id="conRange" class="slider">
 
-                <p class="atribute">Percepção: <span id="perValue"></span></p>
-                <input type="range" min="0" max="20" value="0" id="perRange" class="slider">
+            <p class="atribute">Percepção: <span id="perValue"></span></p>
+            <input type="range" min="0" max="20" id="perRange" class="slider">
 
-                <p class="atribute">Sorte: <span id="sorValue"></span></p>
-                <input type="range" min="0" max="20" value="0" id="sorRange" class="slider">
+            <p class="atribute">Sorte: <span id="sorValue"></span></p>
+            <input type="range" min="0" max="20" id="sorRange" class="slider">
 
-                <p class="atribute">Agilidade: <span id="agiValue"></span></p>
-                <input type="range" min="0" max="20" value="0" id="agiRange" class="slider">
+            <p class="atribute">Agilidade: <span id="agiValue"></span></p>
+            <input type="range" min="0" max="20" id="agiRange" class="slider">
 
-                <p class="atribute">Intuição: <span id="intuValue"></span></p>
-                <input type="range" min="0" max="20" value="0" id="intuRange" class="slider">
+            <p class="atribute">Intuição: <span id="intuValue"></span></p>
+            <input type="range" min="0" max="20" id="intuRange" class="slider">
             </div>
             <div class="botoes">
                 <a href="#"><button type="button" onclick="gerarPdf()" id="salvar">SALVAR</button></a>
-                <a href="#"><button type="button" onclick="testar()" id="gerarOutro">GERAR OUTRO</button></a>
+                <a href="#"><button type="button" onclick="gerarAtributos()" id="gerarOutro">GERAR OUTRO</button></a>
             </div>
 
         </div>

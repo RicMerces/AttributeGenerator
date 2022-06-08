@@ -25,7 +25,7 @@ p.pontMaxima{
     justify-content: center;
 }
 
-.slidecontainer {
+#slidecontainer {
     width: 50%;
    /* Width of the outside container */
     margin-top: 50px;
