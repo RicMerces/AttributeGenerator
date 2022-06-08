@@ -20,9 +20,15 @@ n8 = 0
 n9 = 0
 n10 = 0
 
+var botao = document.getElementById("salvar")
+
+
+    
 
 
 function gerarAtributos() {
+
+    botao.disabled = false;
 
     pontDisp.value = 0
     pontDisp.innerHTML = pontDisp.value
@@ -41,7 +47,7 @@ function gerarAtributos() {
     slider1.value = valores[0];
     var x = slider1.value;
 
-
+    
 
     var color = `linear-gradient(90deg, rgb(47,25,95) ${x * 5}%, rgb(202, 178, 232) ${x * 5}%)`;
     slider1.style.background = color;
@@ -60,6 +66,13 @@ function gerarAtributos() {
         v10 = valores[9] - slider10.value
         pontDisp.value = v1 + v2 + v3 + v4 + v5 + v6 + v7 + v8 + v9 + v10
         pontDisp.innerHTML = pontDisp.value
+
+        
+        if(pontDisp.value>=0){
+            botao.disabled=false
+        }else{
+            botao.disabled=true;
+        }
 
     }
 
@@ -89,6 +102,12 @@ function gerarAtributos() {
         pontDisp.value = v1 + v2 + v3 + v4 + v5 + v6 + v7 + v8 + v9 + v10
         pontDisp.innerHTML = pontDisp.value
 
+        
+        if(pontDisp.value>=0){
+            botao.disabled=false
+        }else{
+            botao.disabled=true;
+        }
 
 
     }
@@ -117,6 +136,12 @@ function gerarAtributos() {
         pontDisp.value = v1 + v2 + v3 + v4 + v5 + v6 + v7 + v8 + v9 + v10
         pontDisp.innerHTML = pontDisp.value
 
+        
+        if(pontDisp.value>=0){
+            botao.disabled=false
+        }else{
+            botao.disabled=true;
+        }
     }
 
     //-------------------------------------------------------------------
@@ -143,6 +168,12 @@ function gerarAtributos() {
         pontDisp.value = v1 + v2 + v3 + v4 + v5 + v6 + v7 + v8 + v9 + v10
         pontDisp.innerHTML = pontDisp.value
 
+        
+        if(pontDisp.value>=0){
+            botao.disabled=false
+        }else{
+            botao.disabled=true;
+        }
     }
 
     //-------------------------------------------------------------------
@@ -169,6 +200,12 @@ function gerarAtributos() {
         pontDisp.value = v1 + v2 + v3 + v4 + v5 + v6 + v7 + v8 + v9 + v10
         pontDisp.innerHTML = pontDisp.value
 
+        
+        if(pontDisp.value>=0){
+            botao.disabled=false
+        }else{
+            botao.disabled=true;
+        }
     }
 
     //-------------------------------------------------------------------
@@ -195,6 +232,12 @@ function gerarAtributos() {
         pontDisp.value = v1 + v2 + v3 + v4 + v5 + v6 + v7 + v8 + v9 + v10
         pontDisp.innerHTML = pontDisp.value
 
+        
+        if(pontDisp.value>=0){
+            botao.disabled=false
+        }else{
+            botao.disabled=true;
+        }
     }
 
     //-------------------------------------------------------------------
@@ -221,6 +264,12 @@ function gerarAtributos() {
         pontDisp.value = v1 + v2 + v3 + v4 + v5 + v6 + v7 + v8 + v9 + v10
         pontDisp.innerHTML = pontDisp.value
 
+       
+        if(pontDisp.value>=0){
+            botao.disabled=false
+        }else{
+            botao.disabled=true;
+        }
     }
 
     //-------------------------------------------------------------------
@@ -247,6 +296,12 @@ function gerarAtributos() {
         pontDisp.value = v1 + v2 + v3 + v4 + v5 + v6 + v7 + v8 + v9 + v10
         pontDisp.innerHTML = pontDisp.value
 
+        
+        if(pontDisp.value>=0){
+            botao.disabled=false
+        }else{
+            botao.disabled=true;
+        }
     }
 
     //-------------------------------------------------------------------
@@ -273,6 +328,12 @@ function gerarAtributos() {
         pontDisp.value = v1 + v2 + v3 + v4 + v5 + v6 + v7 + v8 + v9 + v10
         pontDisp.innerHTML = pontDisp.value
 
+        
+        if(pontDisp.value>=0){
+            botao.disabled=false
+        }else{
+            botao.disabled=true;
+        }
     }
 
     //-------------------------------------------------------------------
@@ -299,6 +360,12 @@ function gerarAtributos() {
         pontDisp.value = v1 + v2 + v3 + v4 + v5 + v6 + v7 + v8 + v9 + v10
         pontDisp.innerHTML = pontDisp.value
 
+        
+        if(pontDisp.value>=0){
+            botao.disabled=false
+        }else{
+            botao.disabled=true;
+        }
     }
 
 

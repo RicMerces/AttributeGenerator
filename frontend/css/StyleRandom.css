@@ -159,7 +159,12 @@ button{
 
 #gerarOutro{
     background-color: #6428AD;
+    
 }
+
+#salvar:disabled {
+    background-color: rgb(119, 126, 126)
+  }
 
 
 
